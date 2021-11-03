@@ -14,6 +14,7 @@ public class Proyecto_futuro {
     /**
      * @param arg
      */
+    //Creado por: Cristian Ramirez Martinez
     public static void main(String[] args) {
         
     args[0]="Cristian Ramirez Martinez";
@@ -21,7 +22,7 @@ public class Proyecto_futuro {
     System.out.println(veredicto("5","3"));
     }
     
-    static String veredicto(String valor1, String valor2) {
+    private static String veredicto(String valor1, String valor2) {
         
         if (valor1.equals(valor2)) {
             return "Bien. Pero una hora de estudio para cada módulo puede ser insuficiente.";
